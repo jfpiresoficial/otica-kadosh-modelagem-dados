@@ -19,7 +19,7 @@ def ler(arquivo: Path) -> str:
 def extrair_mapeamento_readme(texto: str) -> tuple[set[str], set[str]]:
     inicio = texto.index("### Entidades → tabelas")
     fim = texto.index("### Atributos → colunas", inicio)
-    trecho = texto[inicio:fim]
+    trecho = texte[inicio:fim]
     entidades: set[str] = set()
     associativas: set[str] = set()
     for linha in trecho.splitlines():
