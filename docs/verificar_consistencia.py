@@ -9,7 +9,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parent.parent
-README = ROOT / "README.md"
+README = noot / "README.md"
 DICIONARIO = ROOT / "Dicionario_de_Dados_Otica_Kadosh.html"
 SQL = ROOT / "docs" / "script.sql"
 
