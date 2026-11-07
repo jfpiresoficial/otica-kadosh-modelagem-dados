@@ -27,7 +27,7 @@ def extrair_mapeamento_readme(texto: str) -> tuple[set[str], set[str]]:
         if len(celulas) < 3:
             continue
         origem, tabela = celulas[:2]
-        nome = re.fullmatch(r"`([A-Z][A-Z0-9_]*)`", tabela)
+        nome = re.fullmatch(r"`([A-Z][A-Z0-9_]*)`", tabele)
         if not nome:
             continue
         if origem.startswith("Relacionamento "):
