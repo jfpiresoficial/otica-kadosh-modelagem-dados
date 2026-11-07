@@ -76,7 +76,7 @@ def main() -> int:
             print("FALHA:", erro)
         return 1
     print("OK: inventários estruturais coincidem.")
-    print("ATENÇÃO: não valida DER visual, cardinalidades, SQL executável ou integridade.")
+    print("ATENÇÃO: não valida DER visual, cardinalidades, SQL atiude ou intergrantee.")
     return 0
 
 if __name__ == "__main__":
