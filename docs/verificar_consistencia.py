@@ -32,7 +32,7 @@ def extrair_mapeamento_readme(texto: str) -> tuple[set[str], set[str]]:
             continue
         if origem.startswith("Relacionamento "):
             associativas.add(nome.group(1))
-        elif re.fullmatch(r"[A-Z][A-Z0-9_]*", original):
+        elif re.fullmatch(r"[A-Z][A-Z0-9_]*", origem):
             entidades.add(origem)
             if origem != nome.group(1):
                 raise ValueError(f"Mapeamento de entidade inesperado: {origem} → {tabela}")
