@@ -1,4 +1,4 @@
-# Checagem A01–A12 — PR #2
+# Checagem A01–A12 — PR #1
 
 Fonte: `docs/script.sql` e regras RN-03, RN-04, RN-10, RN-11, RN-12, RN-14, RN-16, RN-18, RN-22, RN-23, RN-28 e RN-35 do README.
 
